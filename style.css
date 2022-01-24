@@ -30,3 +30,9 @@ header {
     list-style-type: none;
     color: inherit;
 }
+
+#section-1 {
+    background-color: #1f2937;
+    color: white;
+    
+}
