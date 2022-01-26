@@ -57,7 +57,7 @@ header {
     margin: 0;
     padding: 0;
     color: #f9faf8;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .text {
@@ -79,4 +79,44 @@ button {
     border-width: 0;
     cursor: pointer;
     width: 120px;
+}
+
+.section-two {
+    margin: -8px;
+    height: 500px;
+}
+
+.random-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    gap: 90px;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    margin-top: 30px;
+}
+
+.img-container {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.subtext {
+    font-weight: 100;
+    font-size: 18px;
+    color: #555;
 }
