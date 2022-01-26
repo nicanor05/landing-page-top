@@ -1,6 +1,7 @@
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
 }
+
 
 header {
     display: flex;
@@ -8,12 +9,9 @@ header {
     color: white;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     padding: 8px 60px;
     height: 54px;
+    margin: -8px;
 }
 
 .header-logo {
@@ -32,3 +30,23 @@ header {
     color: inherit;
 }
 
+.section-one {
+    margin: -8px;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 2;
+}
+
+.content {
+    width: 400px;
+    height: 260px;
+}
+
+.ball-img {
+    width: 400px;
+    height: 260px;
+}
