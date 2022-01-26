@@ -6,7 +6,7 @@ html, body {
 header {
     display: flex;
     background-color: #1f2937;
-    color: white;
+    color: #f9faf8;
     justify-content: space-between;
     align-items: center;
     padding: 8px 60px;
@@ -28,6 +28,7 @@ header {
     text-decoration: none;
     list-style-type: none;
     color: inherit;
+    font-weight: 100;
 }
 
 .section-one {
@@ -38,15 +39,44 @@ header {
     height: 500px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 2;
+    gap: 40px;
 }
 
 .content {
-    width: 400px;
+    width: 440px;
     height: 260px;
 }
 
-.ball-img {
-    width: 400px;
+.img {
+    width: 440px;
     height: 260px;
+}
+
+.title {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-weight: 400;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+button {
+    margin-top: 26px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+    width: 120px;
 }
